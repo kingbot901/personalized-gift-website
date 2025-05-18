@@ -38,7 +38,7 @@ export default function MainContent() {
                     Our Special Story
                 </h1>
                 <div className="text-2xl md:text-3xl text-purple-700 mb-8 relative z-10">
-                    Hey Cutiepie, you are<br />my<FlipWords words={['sunshine', 'soulmate', 'everything', 'love', 'world']} className="text-nowrap" />
+                    Hey My Saheeli, you are<br />my<FlipWords words={['Qt pie', 'soulmate', 'Saheeli', 'Janu', 'world']} className="text-nowrap" />
                 </div>
                 <motion.button
                     whileHover={{ scale: 1.05 }}
@@ -56,12 +56,12 @@ export default function MainContent() {
             <h2 className="text-3xl font-bold text-blue-600 mb-6 relative z-10">Our Journey</h2>
             <div className="space-y-4 flex-1 overflow-y-auto overflow-x-hidden rounded-xl custom-scrollbar">
                 {[
-                    { date: '14 February, 2022', event: 'Our Journey Began', emoji: '❤️' },
-                    { date: '1 March, 2022', event: 'First Movie Together', emoji: '🎬' },
-                    { date: '1 March, 2022', event: 'First Hug', emoji: '🤗' },
-                    { date: '5 May, 2022', event: 'First Trip Together', emoji: '✈️' },
-                    { date: '10 August, 2022', event: 'First Fight & Patch-up', emoji: '💬' },
-                    { date: '25 December, 2022', event: 'First Christmas Together', emoji: '🎄' },
+                    { date: '23 May, 2024', event: 'Our Journey Began', emoji: '❤️' },
+                    { date: 'Inshallah g', event: 'First Movie Together', emoji: '🎬' },
+                    { date: 'Most Waited Moment', event: 'First Hug', emoji: '🤗' },
+                    { date: 'Inshallah', event: 'First Trip Together', emoji: '✈️' },
+                    { date: '10 September, 2024', event: 'First Fight & Patch-up', emoji: '💬' },
+                    { date: 'Qurat ul ain', event: 'First Love', emoji: '🎄' },
                 ]
                     .map((item, index) => (
                         <motion.div
@@ -92,7 +92,7 @@ export default function MainContent() {
                         transition={{ duration: 0.5, delay: 0.2 }}
                     >
                         <TimeCounter
-                            startDate="2019-10-23"
+                            startDate="2024-05-23"
                             label="As Friends"
                         />
                     </motion.div>
@@ -102,7 +102,7 @@ export default function MainContent() {
                         transition={{ duration: 0.5, delay: 0.4 }}
                     >
                         <TimeCounter
-                            startDate="2022-01-14"
+                            startDate="2024-09-19"
                             label="As a Couple"
                         />
                     </motion.div>
@@ -121,7 +121,7 @@ export default function MainContent() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5 }}
                 >
-                    Every moment with you is a treasure!
+                    Every moment with you is a treasure cuz u r moi saheeli!
                 </motion.p>
             </div>
         </StoryPage>,
@@ -175,7 +175,7 @@ export default function MainContent() {
             <div className="flex flex-col items-center justify-center h-full text-center">
                 <h2 className="text-4xl font-bold text-pink-600 mb-6 relative z-10">Our Story Continues...</h2>
                 <p className="text-xl text-blue-700 mb-8 relative z-10">
-                    Every moment we share is another step in our unforgettable story.
+                    Every moment we share is another step in our unforgettable story i love u always and never leave alone ummmmmah mela pala bachaw.
                 </p>
                 <motion.div
                     animate={{ scale: [1, 1.2, 1] }}
