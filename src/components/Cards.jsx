@@ -9,7 +9,7 @@ export default function Cards({ setMusicPlaying, handleShowMainContent }) {
     const [windowSize, setWindowSize] = useState({ width: 0, height: 0 })
     const [showConfetti, setShowConfetti] = useState(false)
 
-    // Function to go back to "Can you be mine forever" card
+    // Function to go back to "Annie g can you be mine forever" card
     const goToMainQuestion = () => setCardState("mainQuestion");
 
     useEffect(() => {
@@ -60,13 +60,13 @@ export default function Cards({ setMusicPlaying, handleShowMainContent }) {
                     <QuestionCard
                         key="main-question"
                         emoji="🥰"
-                        question="Can you be mine forever?"
+                        question="Moi Qurat ul ain g you be mine forever?"
                         onAnswer={(answer) => {
                             if (answer) {
                                 setCardState("yesResponse")
                                 setShowConfetti(true)
                             }
-                            else setCardState("areYouSure");
+                            else setCardState("areYouSureJanah");
                         }}
                     />
                 )}
@@ -75,7 +75,7 @@ export default function Cards({ setMusicPlaying, handleShowMainContent }) {
                     <QuestionCard
                         key="yes-response"
                         emoji="🩷"
-                        question="Yesss! You always make my heart smile! I’m so lucky to have you in my life."
+                        question="Yesss! You always make my heart smile ummmmmmahhh! I’m so lucky to have you in my life Annie g u r owsome."
                         showButtons={false}
                         btnText="More love ahead"
                         onAnswer={() => setCardState("secretCode")} // Add a new action here
